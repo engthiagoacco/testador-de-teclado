@@ -1,0 +1,35 @@
+:root {
+    --pressed: #90c0ff;
+    --pressing: #035bff;
+}
+.keyboard {
+    font-size: 24px;
+}
+.teclas {
+    position: relative;
+    height: 70px;
+    width: 70px;
+    text-align: center;
+    margin: auto;
+
+    border-radius: 0px;
+    border-style: solid;
+    border-color: black;
+}
+.keyspace {
+    width: 510px;
+}
+.keytab, .keyshift, .keyctrl, .keyalt, .keymenu, .keywin {
+    width: 100px;
+}
+.keybackspace {
+    width: 130px;
+}
+.pressed {
+    background-color: var(--pressed);
+}
+
+.pressing {
+    background-color: var(--pressing);
+}
+
